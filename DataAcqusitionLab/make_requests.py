@@ -17,10 +17,7 @@ RETRY_WAIT_SECONDS = 3
 
 
 def fetch_locations_page(offset: int, limit: int, token: str) -> dict:
-    params = urllib.parse.urlencode({
-        "limit": limit,
-        "offset": offset,
-    })
+    params = urllib.parse.urlencode({"limit": limit,"offset": offset,})
     url = f"{BASE_URL}?{params}"
 
     request = urllib.request.Request(url)
