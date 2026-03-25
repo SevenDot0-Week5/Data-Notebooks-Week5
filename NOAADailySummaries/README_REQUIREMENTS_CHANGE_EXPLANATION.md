@@ -229,12 +229,15 @@ This shows both requirement compliance and engineering maturity.
 ## Quick command sequence for README compliance
 
 1) Fetch required files:
+
 - python tokengrabber_basic.py
 
-2) Verify compliance:
+1) Verify compliance:
+
 - python readme_requirements_check.py
 
-3) Run notebook top-to-bottom:
+1) Run notebook top-to-bottom:
+
 - loading_and_graphing_daily_summaries.ipynb
 
 Expected outcome:
